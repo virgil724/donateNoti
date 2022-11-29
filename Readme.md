@@ -10,7 +10,7 @@ ap(ap-scheduler)
 2---|requests|ap
 ap-->django
 django-->|boto3|AWS(AWS_SQS)
-AWS-->b(bot)-->|websockets|irc(twitchirc)
+AWS-->|boto3|b(bot)-->|websockets|irc(twitchirc)
 ```
 * Database
 ![](https://i.imgur.com/P92PMcd.png)
