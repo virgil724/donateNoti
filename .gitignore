@@ -1,0 +1,8 @@
+db.sqlite3
+*.http
+.vscode
+.venv
+__pycache__
+.env
+getDonateData.py
+migrations
